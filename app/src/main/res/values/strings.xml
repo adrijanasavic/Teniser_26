@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Teniseri_26</string>
+    <string name="izmena_imena">izmena_imena</string>
+    <string name="aboutDijalog">About</string>
+    <string name="teniseri_app">Teniser</string>
+    <string name="pref_teniser">Teniseri</string>
+    <string name="pref_list_key">moj_key1</string>
+    <string name="pref_summ">Promeni ime tenisera</string>
+    <string name="pref_title">Dozvoli promenu imena</string>
+
+    <string name="fragment_detail_buy">Kupi</string>
+    <string name="fragment_detal_action_refresh">Osvezi</string>
+    <string name="fragment_detal_action_add">Dodaj</string>
+
+    <string name="notification_title">Proizvod narucen</string>
+    <string name="notification_text">Izabrani proizvod je narucen i bice isporucen sledece nedelje </string>
+
+    <string name="pref_sync">pref_sync</string>
+    <string name="pref_sync_title">Dozvoli Sinhronizaciju</string>
+    <string name="pref_sync_summ">Dozvoli aplikaciji da se automatski sinhronizuje ako je povezana na Wi-Fi</string>
+    <string name="pref_syncConnectionType">Interval sinhronizacije</string>
+    <string name="pref_sync_list">pref_sync_list</string>
+
+    <string name="autosync_problem">Automatic Sync problem</string>
+    <string name="no_internet">Bad news, no internet connection</string>
+    <string name="autosync_warning">Automatic Sync warning</string>
+    <string name="connect_to_wifi">Please connect to wifi to sync data</string>
+    <string name="autosync">Automatic Sync</string>
+    <string name="good_news_sync">Good news, everything is sync now.</string>
+
+    <string name="allow_message">dozvoli notifikacije</string>
+    <string name="allow_message_summary">Pokazi notifikacije kada stignu</string>
+    <string name="allow_message_title">Dozvoli prikazivanje notifikacija</string>
+
+    <string name="dialog_about_title">About</string>
+    <string name="dialog_about_message">Teniseri26</string>
+    <string name="dialog_about_yes">OK</string>
+    <string name="dialog_about_no">Cancel</string>
+
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="drawer_home">Home</string>
+    <string name="drawer_home_long">Show All Products</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_Settings_long">Change App Settings</string>
+    <string name="drawer_about">About</string>
+    <string name="drawer_about_long">About Us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

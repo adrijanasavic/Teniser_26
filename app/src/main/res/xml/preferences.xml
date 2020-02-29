@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="promena_tenisera"
+        android:title="Promena imena tenisera">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/izmena_imena"
+            android:summary="@string/pref_summ"
+            android:title="@string/pref_title" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dependency="@string/izmena_imena"
+            android:dialogTitle="@string/pref_teniser"
+            android:entries="@array/izmena_imenaUnosi"
+            android:entryValues="@array/izmena_imenaVrednosti"
+            android:key="@string/pref_list_key"
+            android:summary="%s"
+            android:title="@string/pref_teniser" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="sync_settings"
+        android:title="Automatsko sinhronizovanje podataka">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_sync"
+            android:summary="@string/pref_sync_summ"
+            android:title="@string/pref_sync_title" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dependency="@string/pref_sync"
+            android:dialogTitle="@string/pref_syncConnectionType"
+            android:entries="@array/pref_syncConnectionTypes_entries"
+            android:entryValues="@array/pref_syncConnectionTypes_values"
+            android:key="@string/pref_sync_list"
+            android:summary="%s"
+            android:title="@string/pref_syncConnectionType" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="sync_settings"
+        android:title="Notifikacije">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/allow_message"
+            android:summary="@string/allow_message_summary"
+            android:title="@string/allow_message_title" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
